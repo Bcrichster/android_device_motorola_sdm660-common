@@ -147,10 +147,6 @@ PRODUCT_PACKAGES += \
     android.hidl.manager@1.0 \
     android.hidl.manager@1.0-java
 
-# IMS
-PRODUCT_PACKAGES += \
-    ims-ext-common
-
 # Init
 PRODUCT_PACKAGES += \
     fstab.qcom \
@@ -313,8 +309,9 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     libqsapshim
 
-# Telephony
+# Telephony & IMS
 PRODUCT_PACKAGES += \
+    ims-ext-common \
     telephony-ext \
     qti-telephony-common
 
